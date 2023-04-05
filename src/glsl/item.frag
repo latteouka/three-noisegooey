@@ -36,7 +36,7 @@ void main(void) {
   // cursor blob(intersect position)
   // bigger edge smaller center
   // float mouseRadius = u_cursorRadius * (1.0 + smoothstep(0.15, 0.45, distance(intersect, vec2(0.5))));
-  float smoothMouse = smoothstep(0.1 * mouseRadius, 0.0, intersectDistance) * 4.0;
+  float smoothMouse = smoothstep(0.1 * u_cursorRadius, 0.0, intersectDistance) * 4.0;
   float finalMask = smoothstep(0.4, 0.5, n + smoothMouse);
 
   // background blob
