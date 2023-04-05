@@ -50,8 +50,8 @@ void main(void) {
 
   vec4 finalImage = color * backgroundMask;
 
-  vec4 final = mix(finalImage, blob, insideMask);
-  vec4 final2 = mix(final, blob, finalMask);
+  // vec4 final = mix(finalImage, blob, insideMask);
+  vec4 final2 = mix(finalImage, blob, finalMask);
 
 	// gl_FragColor = vec4(vec3(smoothMouse), 1.);
 	gl_FragColor = final2;
