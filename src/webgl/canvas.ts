@@ -4,7 +4,7 @@ import { Scene } from "three/src/scenes/Scene";
 import { Rect } from "../libs/rect";
 import { OrthographicCamera } from "three/src/cameras/OrthographicCamera";
 import { PerspectiveCamera } from "three/src/cameras/PerspectiveCamera";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { Mesh } from "three/src/objects/Mesh";
 import { Points } from "three/src/objects/Points";
 
